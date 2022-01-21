@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scott Contador</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+         <section >
+            <a href="https://screamintothevoid.com">click here to se more</a>
+            <h1>Contador mark 1</h1>
+            <p class="text_center">0</p>
+            <button onclick="aumentar()" class="butan positivo">mais</button>
+            <button onclick="diminuir()" class="butan negativo">menos</button>
+        </section>
+    </body>
+    <script>
+
+        // estado da minha aplicaçao 
+        let numero = 0;
+        
+        //alteradores de estado
+        function aumentar(){
+            numero++
+            telinhahehe()
+        }
+        
+        function diminuir(){
+            numero--
+            telinhahehe()
+        }
+        // enviar para tela 
+
+        function telinhahehe() {
+            const p = document.querySelector("p")
+            p.innerText = numero
+        }
+        
+
+        // iniciar
+
+        
+    </script>
+</html>

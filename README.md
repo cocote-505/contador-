@@ -1,2 +1,2 @@
-# contador-
-um contador, atividade eliti
+# contador
+
